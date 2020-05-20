@@ -38,8 +38,8 @@ def send_mail():
     msg = f"Subject: {subject}\n\n\n{body}"
 
     server.sendmail(
-        'pinganonymousgeeky@gmail.com' ,
-        'kiranjdev101@gmail.com', 
+        'your-email-here' ,
+        'recipient-email-here', 
         msg
     )
     print('E-mail has been sent!!!')
